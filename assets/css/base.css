@@ -1,0 +1,67 @@
+/* css/base.css */
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variáveis globais com base nas cores da imagem gerada */
+:root {
+  --color-bg: #0f1f1f;             /* Fundo geral */
+  --color-bg-alt: #1c2e2e;         /* Fundo secundário (seções) */
+  --color-primary: #3ce8c4;        /* Verde-água principal */
+  --color-primary-alt: #30bfa4;    /* Verde complementar */
+  --color-text: #ffffff;           /* Texto principal */
+  --color-muted: #cccccc;          /* Texto secundário */
+  --color-card-bg: #213838;        /* Fundo de cards */
+
+  --font-main: 'Segoe UI', sans-serif;
+  --font-size-base: 16px;
+
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 3rem;
+
+  --transition-default: all 0.3s ease-in-out;
+}
+
+/* Estilo global */
+html {
+  font-size: var(--font-size-base);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+p {
+  color: var(--color-muted);
+  margin-bottom: var(--spacing-md);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: var(--transition-default);
+}
+
+a:hover {
+  color: var(--color-primary-alt);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}

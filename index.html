@@ -1,63 +1,66 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Portfólio profissional de desenvolvedor web"
-    />
-    <title>Kaio Campos | Desenvolvedor web</title>
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/theme.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio profissional de Front-end Developer - Kaio Campos" />
+  <meta name="author" content="Kaio Campos" />
+  <title>Kaio Kampos | Desenvolvedor Web</title>
 
-  <body>
-    <div id="header"></div>
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
 
-    <main>
-      <section class="hero">
-        <h1>Kaio Campos</h1>
-        <p>
-          Desenvolvedor Web apaixonado por criar experiências digitais
-          incríveis.
-        </p>
-      </section>
+  <!-- CSS Base e Temas --> 
+  <link rel="stylesheet" href="./assets/css/base.css" />
+  <link rel="stylesheet" href="./assets/css/layout.css" />
+  <link rel="stylesheet" href="./assets/css/header.css" />
+  <link rel="stylesheet" href="./assets/css/footer.css" />
+  <link rel="stylesheet" href="./assets/css/theme.css" />
 
-      <section id="projects" class="projects">
-        <h2>Projetos</h2>
-        <div id="projects-container" class="project-list"></div>
-      </section>
+  <!-- Scripts -->
+  <script defer src="./assets/js/main.js"></script>
+</head>
+<body>
+  <!-- Header será carregado dinamicamente -->
+  <div id="header-container"></div>
 
-      <section id="about" class="about">
-        <h2>Sobre Mim</h2>
-        <p>
-          Sou um desenvolvedor focado em qualidade, acessibilidade e
-          performance. Gosto de resolver problemas reais com código limpo e
-          modular.
-        </p>
-      </section>
+  <main id="main-content">
+    <!-- Seção de Apresentação -->
+    <section id="home" class="hero-section">
+      <h1>Kaio Campos</h1>
+      <h2>Desenvolvedor Web</h2>
+      <p>Crio experiências digitais acessíveis, modernas e responsivas.</p>
+    </section>
 
-      <section id="contact" class="contact">
-        <h2>Contato</h2>
-        <p>Entre em contato pelas redes abaixo:</p>
-        <ul class="social-links">
-          <li>
-            <a href="https://github.com/kaiokampos" target="_blank">GitHub</a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/kaiocamposti" target="_blank"
-              >LinkedIn</a
-            >
-          </li>
-          <li><a href="mailto:kaiocamposti@gmail.com">Email</a></li>
-        </ul>
-      </section>
-    </main>
+    <!-- Seção de Projetos -->
+    <section id="projects" class="projects-section">
+      <h3>Projetos em Destaque</h3>
+      <div id="projects-container" class="projects-grid">
+        <!-- Os projetos serão renderizados via JavaScript -->
+      </div>
+    </section>
 
-    <div id="footer"></div>
-  </body>
+    <!-- Seção Sobre -->
+    <section id="about" class="about-section">
+      <h3>Sobre mim</h3>
+      <p>Sou apaixonado por transformar ideias em interfaces simples e funcionais. Tenho foco em performance, acessibilidade e boas práticas.</p>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact" class="contact-section">
+      <h3>Contato</h3>
+      <p>Me encontre nas redes sociais ou envie um e-mail.</p>
+      <ul class="contact-links">
+        <li><a href="https://github.com/kaiokampos" target="_blank" aria-label="GitHub">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/kaiokampos" target="_blank" aria-label="LinkedIn">LinkedIn</a></li>
+        <li><a href="mailto:contato@kaiocampos.dev" aria-label="Email">Email</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer será carregado dinamicamente -->
+  <div id="footer-container"></div>
+  <script src="./assets/js/projects.js"></script>
+</body>
 </html>

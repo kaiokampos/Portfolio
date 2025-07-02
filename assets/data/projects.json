@@ -1,0 +1,107 @@
+[
+  {
+    "titulo": "Compra de Pizza",
+    "descricao": "Simulação de compra de pizza com personalização e cálculo de preço.",
+    "categoria": "Web App",
+    "link": "https://kaiokampos.github.io/Compra-de-Pizza/",
+    "codigo": "https://github.com/kaiokampos/Compra-de-Pizza"
+  },
+  {
+    "titulo": "Arrasta e Solta",
+    "descricao": "Projeto com funcionalidade de drag and drop intuitivo.",
+    "categoria": "Utilitário",
+    "link": "https://kaiokampos.github.io/Arrasta-solta/",
+    "codigo": "https://github.com/kaiokampos/Arrasta-solta"
+  },
+  {
+    "titulo": "Quiz Interativo",
+    "descricao": "Jogo de perguntas com pontuação e feedback ao usuário.",
+    "categoria": "Jogo",
+    "link": "https://kaiokampos.github.io/Quiz/",
+    "codigo": "https://github.com/kaiokampos/Quiz"
+  },
+  {
+    "titulo": "Jogo da Velha",
+    "descricao": "Clássico jogo da velha com lógica de vitória e empate.",
+    "categoria": "Jogo",
+    "link": "https://kaiokampos.github.io/Jogo-Da-Velha/",
+    "codigo": "https://github.com/kaiokampos/Jogo-Da-Velha"
+  },
+  {
+    "titulo": "Canvas Interativo",
+    "descricao": "Projeto com desenho interativo usando HTML5 Canvas.",
+    "categoria": "Experimento Visual",
+    "link": "https://kaiokampos.github.io/Canvas/",
+    "codigo": "https://github.com/kaiokampos/Canvas"
+  },
+  {
+    "titulo": "Clima Tempo",
+    "descricao": "App que exibe previsão do tempo com base na localização.",
+    "categoria": "Utilitário",
+    "link": "https://kaiokampos.github.io/Clima/",
+    "codigo": "https://github.com/kaiokampos/Clima"
+  },
+  {
+    "titulo": "Relógio Digital",
+    "descricao": "Relógio digital em tempo real com design limpo.",
+    "categoria": "Utilitário",
+    "link": "https://kaiokampos.github.io/Relogio/",
+    "codigo": "https://github.com/kaiokampos/Relogio"
+  },
+  {
+    "titulo": "Bateria Virtual",
+    "descricao": "Toque uma bateria usando teclas do teclado.",
+    "categoria": "Interativo",
+    "link": "https://kaiokampos.github.io/Bateria/",
+    "codigo": "https://github.com/kaiokampos/Bateria"
+  },
+  {
+    "titulo": "Lista de Tarefas",
+    "descricao": "App simples para gerenciamento de tarefas.",
+    "categoria": "Produtividade",
+    "link": "https://kaiokampos.github.io/Lista-de-Tarefas/",
+    "codigo": "https://github.com/kaiokampos/Lista-de-Tarefas"
+  },
+  {
+    "titulo": "Blog com Likes",
+    "descricao": "Simulação de blog com curtidas dinâmicas.",
+    "categoria": "Web App",
+    "link": "https://kaiokampos.github.io/Blog-Com-Like/",
+    "codigo": "https://github.com/kaiokampos/Blog-Com-Like"
+  },
+  {
+    "titulo": "Calculadora",
+    "descricao": "Calculadora funcional com teclado e mouse.",
+    "categoria": "Utilitário",
+    "link": "https://kaiokampos.github.io/calculadora/",
+    "codigo": "https://github.com/kaiokampos/calculadora"
+  },
+  {
+    "titulo": "Agência XYZ",
+    "descricao": "Landing page de agência fictícia com layout moderno.",
+    "categoria": "Landing Page",
+    "link": "https://kaiokampos.github.io/Agencia-XYZ/",
+    "codigo": "https://github.com/kaiokampos/Agencia-XYZ"
+  },
+  {
+    "titulo": "B7Burger",
+    "descricao": "Cardápio de hambúrguer com visual atraente.",
+    "categoria": "Landing Page",
+    "link": "https://kaiokampos.github.io/b7burger/",
+    "codigo": "https://github.com/kaiokampos/b7burger"
+  },
+  {
+    "titulo": "Starbucks Clone",
+    "descricao": "Página inspirada na Starbucks com elementos visuais reais.",
+    "categoria": "Landing Page",
+    "link": "https://kaiokampos.github.io/StarBucks/",
+    "codigo": "https://github.com/kaiokampos/StarBucks"
+  },
+  {
+    "titulo": "Awaw Pet Shop",
+    "descricao": "Website fictício de petshop com layout amigável.",
+    "categoria": "Landing Page",
+    "link": "https://kaiokampos.github.io/Awaw/",
+    "codigo": "https://github.com/kaiokampos/Awaw"
+  }
+]

@@ -1,0 +1,25 @@
+/* css/theme.css */
+
+/* Transições suaves para temas */
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Tema claro */
+:root[data-theme="light"] {
+  --color-bg: #ffffff;
+  --color-bg-alt: #f2f2f2;
+  --color-primary: #00796b;
+  --color-primary-alt: #009688;
+  --color-text: #1a1a1a;
+  --color-muted: #555555;
+  --color-card-bg: #e6e6e6;
+}
+
+/* Tema escuro (default definido em base.css) */
+/* Nenhuma redefinição aqui porque o dark já é o padrão */
+
+/* Extra: animações suaves em elementos com troca de tema */
+section, header, footer, .project-card {
+  transition: background-color 0.4s ease, color 0.4s ease, box-shadow 0.3s ease;
+}
